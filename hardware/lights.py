@@ -83,3 +83,9 @@ class Lights:
 		"""
 		pass
 	
+dict_ = dict()
+i = 0
+for p in prob:
+	i = i +1
+	dict_[i]["prob"] = p
+	dict_[i]["percentages"] = rbinom(...)
